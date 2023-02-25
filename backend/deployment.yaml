@@ -22,6 +22,6 @@ spec:
         app: backend
       containers:
         - name: backend
-          image: setkyar/random-inspirational-messages-be:1.0.0
+          image: setkyar/random-inspirational-messages-be:1.0.1
           ports:
             - containerPort: 8080

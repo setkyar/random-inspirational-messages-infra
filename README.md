@@ -19,5 +19,24 @@ You can see frontend application [here](https://github.com/setkyar/random-inspir
 
 ## Usage
 
+First you have to create eks cluster with nodegroups. After that you can deploy.
 
-### Create
+
+### Create cluster
+
+You can check [here](./eksctl/README.md) for instruction.
+
+
+### Deploy Kubernetes
+
+#### Deploy backend
+
+First, you have to deploy backend. Since it's required backend API endpoint.
+
+You can check the detail inside the [backend folder](./backend/README.md).
+
+#### Deploy frontend
+
+After finishing up the backend, you have to get backend URL and update your frontend `index.html` page for correct domain. Then push docker and update `deployment.yaml` file to use correct version of the docker build.
+
+After that, you should be able to deploy. For the deployment you can check the [frontend folder](./frontend/README.md) for detail.
