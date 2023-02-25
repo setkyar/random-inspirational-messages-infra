@@ -1,4 +1,4 @@
-# random-inspirational-messages-kubernetes
+# random-inspirational-messages-infra
 
 🚧 Still working in progress.
 
